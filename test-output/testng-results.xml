@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[Logo is verified]]>
+    </line>
+    <line>
+      <![CDATA[home page is verified]]>
+    </line>
+    <line>
+      <![CDATA[Contacts Page link is working fine ]]>
+    </line>
+    <line>
+      <![CDATA[Calendar Page link is working fine ]]>
+    </line>
+    <line>
+      <![CDATA[Introduction page is verified]]>
+    </line>
+    <line>
+      <![CDATA[Loginpage is verified]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="80888" started-at="2020-04-14T07:50:10Z" finished-at="2020-04-14T07:51:31Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="80888" started-at="2020-04-14T07:50:10Z" finished-at="2020-04-14T07:51:31Z">
+      <class name="com.qa.testscripts.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testscripts.HomePageTest@1d057a39]" name="setup" is-config="true" duration-ms="14078" started-at="2020-04-14T13:20:10Z" finished-at="2020-04-14T13:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLogo()[pri:0, instance:com.qa.testscripts.HomePageTest@1d057a39]" name="verifyLogo" duration-ms="2759" started-at="2020-04-14T13:20:24Z" finished-at="2020-04-14T13:20:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Logo is verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testscripts.HomePageTest@1d057a39]" name="tearDown" is-config="true" duration-ms="492" started-at="2020-04-14T13:20:27Z" finished-at="2020-04-14T13:20:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testscripts.HomePageTest@1d057a39]" name="setup" is-config="true" duration-ms="17032" started-at="2020-04-14T13:20:27Z" finished-at="2020-04-14T13:20:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageTest()[pri:0, instance:com.qa.testscripts.HomePageTest@1d057a39]" name="verifyHomePageTest" duration-ms="39" started-at="2020-04-14T13:20:44Z" finished-at="2020-04-14T13:20:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[home page is verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testscripts.HomePageTest@1d057a39]" name="tearDown" is-config="true" duration-ms="178" started-at="2020-04-14T13:20:44Z" finished-at="2020-04-14T13:20:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testscripts.HomePageTest@1d057a39]" name="setup" is-config="true" duration-ms="9514" started-at="2020-04-14T13:20:44Z" finished-at="2020-04-14T13:20:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyContactslinkTest()[pri:0, instance:com.qa.testscripts.HomePageTest@1d057a39]" name="verifyContactslinkTest" duration-ms="1780" started-at="2020-04-14T13:20:54Z" finished-at="2020-04-14T13:20:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Contacts Page link is working fine ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyContactslinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testscripts.HomePageTest@1d057a39]" name="tearDown" is-config="true" duration-ms="256" started-at="2020-04-14T13:20:56Z" finished-at="2020-04-14T13:20:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testscripts.HomePageTest@1d057a39]" name="setup" is-config="true" duration-ms="13628" started-at="2020-04-14T13:20:56Z" finished-at="2020-04-14T13:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCalendarTest()[pri:0, instance:com.qa.testscripts.HomePageTest@1d057a39]" name="verifyCalendarTest" duration-ms="2218" started-at="2020-04-14T13:21:10Z" finished-at="2020-04-14T13:21:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Calendar Page link is working fine ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCalendarTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testscripts.HomePageTest@1d057a39]" name="tearDown" is-config="true" duration-ms="148" started-at="2020-04-14T13:21:12Z" finished-at="2020-04-14T13:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscripts.HomePageTest -->
+      <class name="com.qa.testscripts.LoginPageTest">
+        <test-method status="PASS" signature="Initial_setup()[pri:0, instance:com.qa.testscripts.LoginPageTest@5e5792a0]" name="Initial_setup" is-config="true" duration-ms="9103" started-at="2020-04-14T13:21:21Z" finished-at="2020-04-14T13:21:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initial_setup -->
+        <test-method status="PASS" signature="LoginPageTest()[pri:0, instance:com.qa.testscripts.LoginPageTest@5e5792a0]" name="LoginPageTest" duration-ms="534" started-at="2020-04-14T13:21:30Z" finished-at="2020-04-14T13:21:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Loginpage is verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testscripts.LoginPageTest@5e5792a0]" name="tearDown" is-config="true" duration-ms="188" started-at="2020-04-14T13:21:30Z" finished-at="2020-04-14T13:21:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscripts.LoginPageTest -->
+      <class name="com.qa.testscripts.IntroductionTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testscripts.IntroductionTest@26653222]" name="setup" is-config="true" duration-ms="5945" started-at="2020-04-14T13:21:12Z" finished-at="2020-04-14T13:21:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="IntroductionTest()[pri:0, instance:com.qa.testscripts.IntroductionTest@26653222]" name="IntroductionTest" duration-ms="2784" started-at="2020-04-14T13:21:18Z" finished-at="2020-04-14T13:21:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Introduction page is verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- IntroductionTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testscripts.IntroductionTest@26653222]" name="tearDown" is-config="true" duration-ms="186" started-at="2020-04-14T13:21:21Z" finished-at="2020-04-14T13:21:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscripts.IntroductionTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

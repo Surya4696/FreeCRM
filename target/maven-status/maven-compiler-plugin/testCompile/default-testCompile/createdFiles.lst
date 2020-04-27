@@ -1,0 +1,4 @@
+com\qa\testscripts\LoginPageTest.class
+com\qa\testscripts\IntroductionTest.class
+com\qa\testscripts\HomePageTest.class
+com\qa\testscripts\ContactPageTest.class

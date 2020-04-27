@@ -1,0 +1,9 @@
+com\crm\qa\pages\ContactsPage.class
+com\crm\qa\ExtentReportListener\ExtentReporterNG.class
+com\crm\qa\pages\HomePage.class
+com\crm\qa\pages\IntroductionPage.class
+com\crm\qa\pages\LoginPage.class
+com\crm\qa\generic\TestBase.class
+com\crm\qa\util\WebEventListener.class
+com\crm\qa\util\FWUtil.class
+com\crm\qa\pages\CalendarPage.class
