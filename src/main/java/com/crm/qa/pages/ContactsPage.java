@@ -1,3 +1,8 @@
+/*
+ * 
+ * author = Suryakanta Sahoo
+ */
+
 package com.crm.qa.pages;
 
 import java.util.List;
@@ -79,8 +84,8 @@ public class ContactsPage extends TestBase
 		System.out.println(count);
 		for(int i=0;i<count;i++)
 		{
-			String names=cat_name.get(i).getText();
-			if(names.contains(category_type))
+			String category_names=cat_name.get(i).getText();
+			if(category_names.contains(category_type))
 			{
 				cat_name.get(i).click();
 				try 
