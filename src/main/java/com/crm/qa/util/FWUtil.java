@@ -1,12 +1,18 @@
 package com.crm.qa.util;
 
+import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 
-public class FWUtil 
+public class FWUtil
 {
 	
 		static Workbook work_Book;
@@ -14,7 +20,15 @@ public class FWUtil
 		                                  +"java\\com\\crm\\qa\\testdata\\FreeCRMTestData.xlsx";
 		static String sheet_name;
 		static Sheet sheet;
+		static String path= "D:\\FRAMEWORK\\FreeCRMTEST\\src\\main\\java\\screenshot";
 	
+		public static void takeScreenshotAtEndOfTest( WebDriver driver) throws IOException
+		{
+			TakesScreenshot ts = (TakesScreenshot) driver;
+			File src=ts.getScreenshotAs(OutputType.FILE);
+			File des= new File (path);
+			FileUtils.copyFile(src, des);		
+		}
 	
 	public static Object[][] testData(String sheet_name)
 	{
