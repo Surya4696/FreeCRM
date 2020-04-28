@@ -59,6 +59,7 @@ public class HomePageTest extends TestBase
 	{
 		conpg=hompg.clickOnContactsLink();
 		Reporter.log("Contacts Page link is working fine ", true);	
+		Assert.fail();
 	}
 	
 	@Test (priority=3)

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Apr 11 14:57:21 IST 2020</td>
+<td>Started on:</td><td>Tue Apr 28 13:35:56 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>14 seconds (14717 ms)</td>
+<tr><td>Total time:</td><td>63 seconds (63865 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,76 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.testscripts.HomePageTest.verifyContactslinkTest()'><b>verifyContactslinkTest</b><br>Test class: com.qa.testscripts.HomePageTest</td>
+<td><div><pre>java.lang.AssertionError: This test failed on purpose
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qa.testscripts.HomePageTest.verifyContactslinkTest(HomePageTest.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+</pre></div><a href='#' onClick='toggleBox("stack-trace877612522", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace877612522'><pre>java.lang.AssertionError: This test failed on purpose
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qa.testscripts.HomePageTest.verifyContactslinkTest(HomePageTest.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.testscripts.HomePageTest@91161c7</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,17 +145,41 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.qa.testscripts.IntroductionTest.IntroductionTest()'><b>IntroductionTest</b><br>Test class: com.qa.testscripts.IntroductionTest<br/>
-<a href="#Output-93740343" onClick='toggleBox("Output-93740343", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.qa.testscripts.HomePageTest.verifyCalendarTest()'><b>verifyCalendarTest</b><br>Test class: com.qa.testscripts.HomePageTest<br/>
+<a href="#Output-314411620" onClick='toggleBox("Output-314411620", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-93740343" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-93740343">
-Introduction page is verified<br/>
+<a href="#Output-314411620" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-314411620">
+Calendar Page link is working fine <br/>
 </div>
 </td>
 <td></td>
-<td>6</td>
-<td>com.qa.testscripts.IntroductionTest@457e2f02</td></tr>
+<td>2</td>
+<td>com.qa.testscripts.HomePageTest@91161c7</td></tr>
+<tr>
+<td title='com.qa.testscripts.HomePageTest.verifyHomePageTest()'><b>verifyHomePageTest</b><br>Test class: com.qa.testscripts.HomePageTest<br/>
+<a href="#Output-2082557120" onClick='toggleBox("Output-2082557120", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2082557120" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2082557120">
+home page is verified<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testscripts.HomePageTest@91161c7</td></tr>
+<tr>
+<td title='com.qa.testscripts.HomePageTest.verifyLogo()'><b>verifyLogo</b><br>Test class: com.qa.testscripts.HomePageTest<br/>
+<a href="#Output-1926673338" onClick='toggleBox("Output-1926673338", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1926673338" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1926673338">
+Logo is verified<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.qa.testscripts.HomePageTest@91161c7</td></tr>
 </table><p>
 </body>
 </html>

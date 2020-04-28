@@ -7,13 +7,13 @@ package com.crm.qa.util;
  as an when the action done (click, findBy etc). 
  */
 
-import java.io.IOException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverEventListener;
+
 
 import com.crm.qa.generic.TestBase;
 
@@ -62,16 +62,6 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 
 	public void afterNavigateForward(WebDriver driver) {
 		System.out.println("Navigated forward to next page");
-	}
-
-	public void onException(Throwable error, WebDriver driver) 
-	{
-		System.out.println("Exception occured: " + error);
-		try {
-			FWUtil.takeScreenshotAtEndOfTest(driver);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
 	}
 
 	public void beforeFindBy(By by, WebElement element, WebDriver driver) {
@@ -161,7 +151,8 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 		
 	}
 
-	public void onException1(Throwable throwable, WebDriver driver) {
+	@Override
+	public void onException(Throwable throwable, WebDriver driver) {
 		// TODO Auto-generated method stub
 		
 	}

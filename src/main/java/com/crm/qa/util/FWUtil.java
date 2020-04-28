@@ -11,6 +11,9 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.testng.ITestResult;
+
+import com.crm.qa.generic.TestBase;
 
 public class FWUtil
 {
@@ -20,14 +23,20 @@ public class FWUtil
 		                                  +"java\\com\\crm\\qa\\testdata\\FreeCRMTestData.xlsx";
 		static String sheet_name;
 		static Sheet sheet;
-		static String path= "D:\\FRAMEWORK\\FreeCRMTEST\\src\\main\\java\\screenshot";
-	
-		public static void takeScreenshotAtEndOfTest( WebDriver driver) throws IOException
+		
+		public static void takeScreenshotAtEndOfTest( WebDriver driver, String path)
 		{
 			TakesScreenshot ts = (TakesScreenshot) driver;
 			File src=ts.getScreenshotAs(OutputType.FILE);
 			File des= new File (path);
-			FileUtils.copyFile(src, des);		
+			try
+			{
+				FileUtils.copyFile(src, des);
+			} 
+			catch (IOException e) 
+			{
+				e.printStackTrace();
+			}		
 		}
 	
 	public static Object[][] testData(String sheet_name)

@@ -1,6 +1,7 @@
 package com.crm.qa.generic;
 
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -8,9 +9,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 
+import com.crm.qa.util.FWUtil;
 import com.crm.qa.util.WebEventListener;
 
 public class TestBase 
@@ -20,6 +22,7 @@ public class TestBase
 	FileInputStream ip;
 	EventFiringWebDriver e_WebDriver;
 	WebEventListener eventListener;
+	static String screenshot_Path="D:/FRAMEWORK/FreeCRMTEST/screenshot/";
 	
 	public TestBase() 
 	{
@@ -70,8 +73,20 @@ public class TestBase
 	}
 
 	@AfterMethod
-	public static void tearDown() 
+	public static void tearDown(ITestResult res) 
 	{
+		int status=res.getStatus();
+		String name=res.getName();
+		String filename=screenshot_Path+name;
+		if(status==1)
+		{
+			System.out.println("Test Pass");
+		}
+		else
+		{
+			FWUtil.takeScreenshotAtEndOfTest(driver, filename+".png");
+		}
+		
 		driver.close();
 	}
 
