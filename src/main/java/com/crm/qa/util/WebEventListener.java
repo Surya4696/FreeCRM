@@ -7,7 +7,6 @@ package com.crm.qa.util;
  as an when the action done (click, findBy etc). 
  */
 
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
