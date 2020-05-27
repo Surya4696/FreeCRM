@@ -28,9 +28,9 @@ public class LoginPageTest extends TestBase
 	}
 	
 	@Test
-	public void LoginPageTest()
+	public void verifyLoginPageTest()
 	{
-		lpg.setup("sahoosuryakanta11@gmail.com", "Surya4696");
+		lpg.setup(prop.getProperty("username"),prop.getProperty("pwd"));
 		lpg.verifyLoginPage();
 		Assert.assertEquals(lpg.verifyLoginPage(), "Cogmento CRM","Error in page.");
 		Reporter.log("Loginpage is verified",true);

@@ -14,60 +14,60 @@
       <![CDATA[Calendar Page link is working fine ]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="77851" started-at="2020-04-28T09:15:50Z" finished-at="2020-04-28T09:17:08Z">
+  <suite name="Default suite" duration-ms="60153" started-at="2020-05-27T14:05:40Z" finished-at="2020-05-27T14:06:40Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="77851" started-at="2020-04-28T09:15:50Z" finished-at="2020-04-28T09:17:08Z">
+    <test name="Default test" duration-ms="60153" started-at="2020-05-27T14:05:40Z" finished-at="2020-05-27T14:06:40Z">
       <class name="com.qa.testscripts.HomePageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testscripts.HomePageTest@604ed9f0]" name="setup" is-config="true" duration-ms="15421" started-at="2020-04-28T14:45:50Z" finished-at="2020-04-28T14:46:05Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testscripts.HomePageTest@91161c7]" name="setup" is-config="true" duration-ms="12329" started-at="2020-05-27T19:35:40Z" finished-at="2020-05-27T19:35:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyLogo()[pri:0, instance:com.qa.testscripts.HomePageTest@604ed9f0]" name="verifyLogo" duration-ms="2136" started-at="2020-04-28T14:46:05Z" finished-at="2020-04-28T14:46:07Z">
+        <test-method status="PASS" signature="verifyLogo()[pri:0, instance:com.qa.testscripts.HomePageTest@91161c7]" name="verifyLogo" duration-ms="1961" started-at="2020-05-27T19:35:53Z" finished-at="2020-05-27T19:35:55Z">
           <reporter-output>
             <line>
               <![CDATA[Logo is verified]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyLogo -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testscripts.HomePageTest@604ed9f0]" name="tearDown" is-config="true" duration-ms="199" started-at="2020-04-28T14:46:07Z" finished-at="2020-04-28T14:46:08Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testscripts.HomePageTest@91161c7]" name="tearDown" is-config="true" duration-ms="293" started-at="2020-05-27T19:35:55Z" finished-at="2020-05-27T19:35:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLogo status=SUCCESS method=HomePageTest.verifyLogo()[pri:0, instance:com.qa.testscripts.HomePageTest@604ed9f0] output=Logo is verified]]]>
+                <![CDATA[[TestResult name=verifyLogo status=SUCCESS method=HomePageTest.verifyLogo()[pri:0, instance:com.qa.testscripts.HomePageTest@91161c7] output=Logo is verified]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testscripts.HomePageTest@604ed9f0]" name="setup" is-config="true" duration-ms="13308" started-at="2020-04-28T14:46:08Z" finished-at="2020-04-28T14:46:21Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testscripts.HomePageTest@91161c7]" name="setup" is-config="true" duration-ms="12965" started-at="2020-05-27T19:35:55Z" finished-at="2020-05-27T19:36:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyHomePageTest()[pri:1, instance:com.qa.testscripts.HomePageTest@604ed9f0]" name="verifyHomePageTest" duration-ms="21" started-at="2020-04-28T14:46:21Z" finished-at="2020-04-28T14:46:21Z">
+        <test-method status="PASS" signature="verifyHomePageTest()[pri:1, instance:com.qa.testscripts.HomePageTest@91161c7]" name="verifyHomePageTest" duration-ms="5" started-at="2020-05-27T19:36:08Z" finished-at="2020-05-27T19:36:08Z">
           <reporter-output>
             <line>
               <![CDATA[home page is verified]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyHomePageTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testscripts.HomePageTest@604ed9f0]" name="tearDown" is-config="true" duration-ms="2339" started-at="2020-04-28T14:46:21Z" finished-at="2020-04-28T14:46:23Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testscripts.HomePageTest@91161c7]" name="tearDown" is-config="true" duration-ms="68" started-at="2020-05-27T19:36:08Z" finished-at="2020-05-27T19:36:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyHomePageTest status=SUCCESS method=HomePageTest.verifyHomePageTest()[pri:1, instance:com.qa.testscripts.HomePageTest@604ed9f0] output=home page is verified]]]>
+                <![CDATA[[TestResult name=verifyHomePageTest status=SUCCESS method=HomePageTest.verifyHomePageTest()[pri:1, instance:com.qa.testscripts.HomePageTest@91161c7] output=home page is verified]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testscripts.HomePageTest@604ed9f0]" name="setup" is-config="true" duration-ms="25319" started-at="2020-04-28T14:46:23Z" finished-at="2020-04-28T14:46:49Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testscripts.HomePageTest@91161c7]" name="setup" is-config="true" duration-ms="13541" started-at="2020-05-27T19:36:08Z" finished-at="2020-05-27T19:36:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="verifyContactslinkTest()[pri:2, instance:com.qa.testscripts.HomePageTest@604ed9f0]" name="verifyContactslinkTest" duration-ms="2170" started-at="2020-04-28T14:46:49Z" finished-at="2020-04-28T14:46:51Z">
+        <test-method status="FAIL" signature="verifyContactslinkTest()[pri:2, instance:com.qa.testscripts.HomePageTest@91161c7]" name="verifyContactslinkTest" duration-ms="2583" started-at="2020-05-27T19:36:21Z" finished-at="2020-05-27T19:36:24Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -111,33 +111,33 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyContactslinkTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testscripts.HomePageTest@604ed9f0]" name="tearDown" is-config="true" duration-ms="993" started-at="2020-04-28T14:46:51Z" finished-at="2020-04-28T14:46:52Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testscripts.HomePageTest@91161c7]" name="tearDown" is-config="true" duration-ms="758" started-at="2020-05-27T19:36:24Z" finished-at="2020-05-27T19:36:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyContactslinkTest status=FAILURE method=HomePageTest.verifyContactslinkTest()[pri:2, instance:com.qa.testscripts.HomePageTest@604ed9f0] output=Contacts Page link is working fine ]]]>
+                <![CDATA[[TestResult name=verifyContactslinkTest status=FAILURE method=HomePageTest.verifyContactslinkTest()[pri:2, instance:com.qa.testscripts.HomePageTest@91161c7] output=Contacts Page link is working fine ]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testscripts.HomePageTest@604ed9f0]" name="setup" is-config="true" duration-ms="13231" started-at="2020-04-28T14:46:52Z" finished-at="2020-04-28T14:47:05Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testscripts.HomePageTest@91161c7]" name="setup" is-config="true" duration-ms="13641" started-at="2020-05-27T19:36:25Z" finished-at="2020-05-27T19:36:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyCalendarTest()[pri:3, instance:com.qa.testscripts.HomePageTest@604ed9f0]" name="verifyCalendarTest" duration-ms="2430" started-at="2020-04-28T14:47:05Z" finished-at="2020-04-28T14:47:08Z">
+        <test-method status="PASS" signature="verifyCalendarTest()[pri:3, instance:com.qa.testscripts.HomePageTest@91161c7]" name="verifyCalendarTest" duration-ms="1846" started-at="2020-05-27T19:36:38Z" finished-at="2020-05-27T19:36:40Z">
           <reporter-output>
             <line>
               <![CDATA[Calendar Page link is working fine ]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyCalendarTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testscripts.HomePageTest@604ed9f0]" name="tearDown" is-config="true" duration-ms="211" started-at="2020-04-28T14:47:08Z" finished-at="2020-04-28T14:47:08Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testscripts.HomePageTest@91161c7]" name="tearDown" is-config="true" duration-ms="94" started-at="2020-05-27T19:36:40Z" finished-at="2020-05-27T19:36:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyCalendarTest status=SUCCESS method=HomePageTest.verifyCalendarTest()[pri:3, instance:com.qa.testscripts.HomePageTest@604ed9f0] output=Calendar Page link is working fine ]]]>
+                <![CDATA[[TestResult name=verifyCalendarTest status=SUCCESS method=HomePageTest.verifyCalendarTest()[pri:3, instance:com.qa.testscripts.HomePageTest@91161c7] output=Calendar Page link is working fine ]]]>
               </value>
             </param>
           </params>
@@ -145,6 +145,6 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.testscripts.HomePageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

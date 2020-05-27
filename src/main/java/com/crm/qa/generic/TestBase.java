@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 
@@ -18,12 +19,13 @@ import com.crm.qa.util.WebEventListener;
 public class TestBase 
 {
 	public static WebDriver driver;
-	Properties prop;
+	protected static Properties prop;
 	FileInputStream ip;
 	EventFiringWebDriver e_WebDriver;
 	WebEventListener eventListener;
 	static String screenshot_Path="D:/FRAMEWORK/FreeCRMTEST/screenshot/";
 	
+	//constructor
 	public TestBase() 
 	{
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");	
